@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(169, 169, 169);
+}
+
+
+.rr {
+    display: grid;
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+    background-color: rgb(169, 169, 169);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+
+}
+
+.no {
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+}
+
+.tt {
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+
+    grid-row-start: 1; /*строка начальную позицию элемента сетки по вертикали.*/
+
+    grid-row-end: 3;/* строка которое определяет, сколько строк будет занимать элемент или на какой
+    строке элемент будет заканчиваться*/
+
+    grid-column-start:2;/* столбец определяет, с какого столбца будет расположен элемент в макете сетки, 
+    или какое количество столбцов будет охватывать элемент.*/
+
+    grid-column-end: 3;/* столбец определяет сколько столбцов будет занимать
+    элемент или на какой строке столбца он завершится*/
+}ы
+
+.nn {
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:2;
+    grid-column-end: 2;
+}
+
+.ww {
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+.mm {
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+}
+
+
+.zz{
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:2;
+    grid-column-end: 2;
+}
+
+.uu{
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3; 
+}
+
+h2{
+    text-align: center;
+}
+
+
+.stop{
+    display: grid;
+    border: solid 2px;
+    border-color: rgb(169, 169, 169);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+}
